@@ -6748,3 +6748,474 @@ StateIconList[EFST_IDs.EFST_RUSH_QUAKE2] = {
 		{ "Ranged Physical Damage." }
 	}
 }
+StateIconList[EFST_IDs.EFST_RISING_SUN] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Sunrise", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Sunrise State" }
+	}
+}
+StateIconList[EFST_IDs.EFST_NOON_SUN] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Noon", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Noon State" }
+	}
+}
+StateIconList[EFST_IDs.EFST_SUNSET_SUN] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Sunset", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Sunset State" }
+	}
+}
+StateIconList[EFST_IDs.EFST_RISING_MOON] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Moonrise", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Moonrise State" }
+	}
+}
+StateIconList[EFST_IDs.EFST_MIDNIGHT_MOON] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Midnight", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Midnight State" }
+	}
+}
+StateIconList[EFST_IDs.EFST_DAWN_MOON] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Dawn", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Dawn State" }
+	}
+}
+StateIconList[EFST_IDs.EFST_STAR_BURST] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Star Burst", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "Star Burst State" }
+	}
+}
+StateIconList[EFST_IDs.EFST_SKY_ENCHANT] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Enchanting Sky", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Celestial Unity State" }
+	}
+}
+StateIconList[EFST_IDs.EFST_TALISMAN_OF_PROTECTION] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Talisman of Protection", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Recovers HP over time" }
+	}
+}
+StateIconList[EFST_IDs.EFST_TALISMAN_OF_WARRIOR] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Talisman of Warrior", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases P.ATK" }
+	}
+}
+StateIconList[EFST_IDs.EFST_TALISMAN_OF_MAGICIAN] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Talisman of Magician", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases S.MATK" }
+	}
+}
+StateIconList[EFST_IDs.EFST_TALISMAN_OF_FIVE_ELEMENTS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Talisman of Five Elements", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Physical and Magical Damage against" },
+		{ "Water/Wind/Earth/Fire and Neutral elemental enemies." }
+	}
+}
+StateIconList[EFST_IDs.EFST_T_FIRST_GOD] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Blessing of the East", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Blessing of the East State" }
+	}
+}
+StateIconList[EFST_IDs.EFST_T_SECOND_GOD] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Blessing of the West", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Blessing of the West State" }
+	}
+}
+StateIconList[EFST_IDs.EFST_T_THIRD_GOD] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Blessing of the South", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Blessing of the South State" }
+	}
+}
+StateIconList[EFST_IDs.EFST_T_FOURTH_GOD] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Blessing of the North", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Blessing of the North State" }
+	}
+}
+StateIconList[EFST_IDs.EFST_T_FIVETH_GOD] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Blessing of the Four Directions", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Blessing of the Four Directions State" }
+	}
+}
+StateIconList[EFST_IDs.EFST_HEAVEN_AND_EARTH] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Heaven and Earth", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Melee Physical Damage" },
+		{ "Increases Ranged Physical Damage" },
+		{ "Increases Magic Damage with every element" }
+	}
+}
+StateIconList[EFST_IDs.EFST_HOGOGONG] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Hogogong", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Hogogong State" }
+	}
+}
+StateIconList[EFST_IDs.EFST_MARINE_FESTIVAL] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Marine Festival", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases POW, CRT and CON" }
+	}
+}
+StateIconList[EFST_IDs.EFST_SANDY_FESTIVAL] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Sandy Festival", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases SPL, WIS and STA" }
+	}
+}
+StateIconList[EFST_IDs.EFST_KI_SUL_RAMPAGE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Kisul Rampage", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Recovers AP over time" }
+	}
+}
+StateIconList[EFST_IDs.EFST_COLORS_OF_HYUN_ROK_1] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Colors of Hyunrok", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Enchants Water elemental onto following skills:" },
+		{ "Catnip Meteor" },
+		{ "Hyunrok Breeze" },
+		{ "Hyunrok Cannon" }
+	}
+}
+StateIconList[EFST_IDs.EFST_COLORS_OF_HYUN_ROK_2] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Colors of Hyunrok", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Enchants Wind elemental onto following skills:" },
+		{ "Catnip Meteor" },
+		{ "Hyunrok Breeze" },
+		{ "Hyunrok Cannon" }
+	}
+}
+StateIconList[EFST_IDs.EFST_COLORS_OF_HYUN_ROK_3] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Colors of Hyunrok", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Enchants Earth elemental onto following skills:" },
+		{ "Catnip Meteor" },
+		{ "Hyunrok Breeze" },
+		{ "Hyunrok Cannon" }
+	}
+}
+StateIconList[EFST_IDs.EFST_COLORS_OF_HYUN_ROK_4] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Colors of Hyunrok", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Enchants Fire elemental onto following skills:" },
+		{ "Catnip Meteor" },
+		{ "Hyunrok Breeze" },
+		{ "Hyunrok Cannon" }
+	}
+}
+StateIconList[EFST_IDs.EFST_COLORS_OF_HYUN_ROK_5] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Colors of Hyunrok", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Enchants Shadow elemental onto following skills:" },
+		{ "Catnip Meteor" },
+		{ "Hyunrok Breeze" },
+		{ "Hyunrok Cannon" }
+	}
+}
+StateIconList[EFST_IDs.EFST_COLORS_OF_HYUN_ROK_6] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Colors of Hyunrok", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Enchants Holy elemental onto following skills:" },
+		{ "Catnip Meteor" },
+		{ "Hyunrok Breeze" },
+		{ "Hyunrok Cannon" }
+	}
+}
+StateIconList[EFST_IDs.EFST_COLORS_OF_HYUN_ROK_BUFF] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Colors of Hyunrok", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Damage of Catnip Meteor" }
+	}
+}
+StateIconList[EFST_IDs.EFST_TEMPORARY_COMMUNION] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Temporary Communion", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases P.ATK, S.MATK and HEAL PLUS" }
+	}
+}
+StateIconList[EFST_IDs.EFST_BLESSING_OF_M_CREATURES] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Blessing of Mystical Creatures", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases P.ATK and S.MATK" }
+	}
+}
+StateIconList[EFST_IDs.EFST_BLESSING_OF_M_C_DEBUFF] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Blessing of Mystical Creatures Cooldown", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "You can't recieve the Blessing of Mystical Creatures effect again for a certain duration." }
+	}
+}
+StateIconList[EFST_IDs.EFST_INTENSIVE_AIM] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Intensive Aim", COLOR_TITLE_BUFF },
+		{ "Increases ATK" },
+		{ "Increases HIT" },
+		{ "Increases CRI" }
+	}
+}
+StateIconList[EFST_IDs.EFST_GRENADE_FRAGMENT_1] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Grenade Fragment", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Enchants Water elemental onto Grenades" }
+	}
+}
+StateIconList[EFST_IDs.EFST_GRENADE_FRAGMENT_2] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Grenade Fragment", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Enchants Wind elemental onto Grenades" }
+	}
+}
+StateIconList[EFST_IDs.EFST_GRENADE_FRAGMENT_3] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Grenade Fragment", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Enchants Earth elemental onto Grenades" }
+	}
+}
+StateIconList[EFST_IDs.EFST_GRENADE_FRAGMENT_4] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Grenade Fragment", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Enchants Fire elemental onto Grenades" }
+	}
+}
+StateIconList[EFST_IDs.EFST_GRENADE_FRAGMENT_5] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Grenade Fragment", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Enchants Shadow elemental onto Grenades" }
+	}
+}
+StateIconList[EFST_IDs.EFST_GRENADE_FRAGMENT_6] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Grenade Fragment", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Enchants Holy elemental onto Grenades" }
+	}
+}
+StateIconList[EFST_IDs.EFST_AUTO_FIRING_LAUNCHEREFST] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Auto Firing Launcher", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Auto Firing Launcher is active" }
+	}
+}
+StateIconList[EFST_IDs.EFST_HIDDEN_CARD] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Hidden Card", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Ranged Physical Damage" },
+		{ "Increases P.ATK" }
+	}
+}
+StateIconList[EFST_IDs.EFST_NW_GRENADE_MASTERY] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Grenade Mastery", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases CON" },
+		{ "Increases Damage of Grenade-type skills" }
+	}
+}
+StateIconList[EFST_IDs.EFST_SHIELDCHAINRUSH] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Shield Chain Rush", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "Decreases Movement Speed" },
+		{ "Increases recieved Physical Damage" },
+		{ "Increases recieved Magical Damage" }
+	}
+}
+StateIconList[EFST_IDs.EFST_MISTYFROST] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Bitter Cold", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Damage recieved from Water elemental attacks by 15%." }
+	}
+}
+StateIconList[EFST_IDs.EFST_GROUNDGRAVITY] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Gravitational Field", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "Decreases Movement Speed" },
+		{ "Increases recieved Physical Damage" },
+		{ "Increases recieved Magical Damage" }
+	}
+}
+StateIconList[EFST_IDs.EFST_BREAKINGLIMIT] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Breaking Limit", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Damage of certain skills." }
+	}
+}
+StateIconList[EFST_IDs.EFST_RULEBREAK] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Rule Breaking", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Damage of certain skills." }
+	}
+}
+StateIconList[EFST_IDs.EFST_SHADOW_CLOCK] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Shadow Clock", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Increases Movement Speed" },
+		{ "Decreases recieved Physical Damage" },
+		{ "Decreases recieved Magical Damage" }
+	}
+}
+StateIconList[EFST_IDs.EFST_NIGHTMARE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Nightmare", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "Nightmare Mark" }
+	}
+}
