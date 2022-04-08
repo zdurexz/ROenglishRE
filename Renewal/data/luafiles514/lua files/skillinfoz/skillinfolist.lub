@@ -14238,7 +14238,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WH_GALESTORM] = {
 		"WH_GALESTORM",
-		SkillName = "Galestorm",
+		SkillName = "Gale Storm",
 		MaxLv = 10,
 		SpAmount = { 80, 91, 102, 113, 124, 135, 146, 157, 168, 179 },
 		bSeperateLv = true,
@@ -16042,7 +16042,7 @@ SKILL_INFO_LIST = {
 		"HN_JACK_FROST_NOVA",
 		SkillName = "Jack Frost Nova",
 		MaxLv = 10,
-		SpAmount = { 58, 61, 64, 67, 70, 73, 76, 79, 83, 85 },
+		SpAmount = { 58, 61, 64, 67, 70, 73, 76, 79, 82, 85 },
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {

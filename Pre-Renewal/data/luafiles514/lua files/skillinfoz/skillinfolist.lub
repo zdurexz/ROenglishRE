@@ -7882,22 +7882,39 @@ SKILL_INFO_LIST = {
 	[SKID.ALL_ODINS_RECALL] = {
 		"ALL_ODINS_RECALL",
 		SkillName = "Odin's Recall",
+		MaxLv = 1,
+		SpAmount = { 1 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
 	},
 	[SKID.RETURN_TO_ELDICASTES] = {
 		"RETURN_TO_ELDICASTES",
 		SkillName = "Return to Eldicastes",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
 	},
 	[SKID.ALL_GUARDIAN_RECALL] = {
 		"ALL_GUARDIAN_RECALL",
 		SkillName = "Guardian Recall",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
 	},
 	[SKID.ALL_ODINS_POWER] = {
 		"ALL_ODINS_POWER",
 		SkillName = "Odin's Power",
+		MaxLv = 2,
+		SpAmount = { 70, 100 },
+		bSeperateLv = false,
+		AttackRange = { 9, 9 }
 	},
 	[SKID.HLIF_HEAL] = {
 		"HLIF_HEAL",
 		SkillName = "Touch of Heal",
+		MaxLv = 5,
 		SpAmount = { 13, 16, 19, 22, 25 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1 }
@@ -7905,6 +7922,7 @@ SKILL_INFO_LIST = {
 	[SKID.HLIF_AVOID] = {
 		"HLIF_AVOID",
 		SkillName = "Emergency Avoid",
+		MaxLv = 5,
 		SpAmount = { 20, 25, 30, 35, 40 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1 }
@@ -8032,16 +8050,16 @@ SKILL_INFO_LIST = {
 	[SKID.MH_NEEDLE_OF_PARALYZE] = {
 		"MH_NEEDLE_OF_PARALYZE",
 		SkillName = "Needle of Paralyze",
-		SpAmount = { 60, 80, 100, 120, 140 },
 		MaxLv = 5,
+		SpAmount = { 60, 80, 100, 120, 140 },
 		bSeperateLv = true,
 		AttackRange = { 5, 5, 5, 5, 5 }
 	},
 	[SKID.MH_POISON_MIST] = {
 		"MH_POISON_MIST",
 		SkillName = "Poison Mist",
-		SpAmount = { 65, 75, 85, 95, 105 },
 		MaxLv = 5,
+		SpAmount = { 65, 75, 85, 95, 105 },
 		bSeperateLv = true,
 		AttackRange = { 5, 5, 5, 5, 5 }
 	},
@@ -8088,6 +8106,7 @@ SKILL_INFO_LIST = {
 	[SKID.MH_SILENT_BREEZE] = {
 		"MH_SILENT_BREEZE",
 		SkillName = "Silent Breeze",
+		MaxLv = 5,
 		SpAmount = { 45, 54, 63, 72, 81 },
 		bSeperateLv = true,
 		AttackRange = { 5, 5, 7, 7, 9 }
@@ -8126,15 +8145,13 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MH_STAHL_HORN] = {
 		"MH_STAHL_HORN",
-		SkillName = "Steel's Horn",
-		SpAmount = { 40, 45, 50, 55, 60 },
+		SkillName = "Stahl Horn",
 		MaxLv = 5,
-		bSeperateLv = true,
-		AttackRange = { 5, 6, 7, 8, 9 }
+		SpAmount = { 40, 45, 50, 55, 60 }
 	},
 	[SKID.MH_GOLDENE_FERSE] = {
 		"MH_GOLDENE_FERSE",
-		SkillName = "Golden Heel",
+		SkillName = "Goldene Ferse : Heel of Gold",
 		MaxLv = 5,
 		SpAmount = { 60, 65, 70, 75, 80 },
 		bSeperateLv = true,
@@ -8142,7 +8159,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MH_STEINWAND] = {
 		"MH_STEINWAND",
-		SkillName = "Stone Wall",
+		SkillName = "Stein Wand",
 		MaxLv = 5,
 		SpAmount = { 80, 90, 100, 110, 120 },
 		bSeperateLv = true,
@@ -8150,7 +8167,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MH_HEILIGE_STANGE] = {
 		"MH_HEILIGE_STANGE",
-		SkillName = "Holy Pole",
+		SkillName = "Heilige Stange : Divine Spear",
 		MaxLv = 5,
 		SpAmount = { 60, 68, 76, 84, 100 },
 		bSeperateLv = true,
@@ -8240,9 +8257,9 @@ SKILL_INFO_LIST = {
 		"MS_MAGNUM",
 		SkillName = "Magnum Break",
 		MaxLv = 10,
-		SpAmount = { 12, 12, 12, 12, 12, 12, 12, 12, 12, 12 },
+		SpAmount = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
 		bSeperateLv = false,
-		AttackRange = { 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 }
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.MS_BOWLINGBASH] = {
 		"MS_BOWLINGBASH",
@@ -8278,7 +8295,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MA_DOUBLE] = {
 		"MA_DOUBLE",
-		SkillName = "Double Strafing",
+		SkillName = "Double Strafe",
 		MaxLv = 10,
 		SpAmount = { 12, 12, 12, 12, 12, 12, 12, 12, 12, 12 },
 		bSeperateLv = false,
@@ -8434,7 +8451,6 @@ SKILL_INFO_LIST = {
 		MaxLv = 1,
 		SpAmount = { 10 },
 		bSeperateLv = false,
-		AttackRange = { 9 }
 	},
 	[SKID.MER_TENDER] = {
 		"MER_TENDER",
@@ -8518,7 +8534,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MER_ESTIMATION] = {
 		"MER_ESTIMATION",
-		SkillName = "Monster Property",
+		SkillName = "Sense",
 		MaxLv = 1,
 		SpAmount = { 10 },
 		bSeperateLv = false,
@@ -8550,7 +8566,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GD_APPROVAL] = {
 		"GD_APPROVAL",
-		SkillName = "Approval",
+		SkillName = "Official Guild Approval",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -8574,7 +8590,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GD_GUARDUP] = {
 		"GD_GUARDUP",
-		SkillName = "Build up the Guardian",
+		SkillName = "Strengthen Guardians",
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
@@ -8606,15 +8622,15 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GD_GLORYWOUNDS] = {
 		"GD_GLORYWOUNDS",
-		SkillName = "Wounds of Glory",
+		SkillName = "Glorious Wounds",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1 },
 	},
 	[SKID.GD_SOULCOLD] = {
 		"GD_SOULCOLD",
-		SkillName = "Soul of Cold",
+		SkillName = "Cold Heart",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -8622,7 +8638,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GD_HAWKEYES] = {
 		"GD_HAWKEYES",
-		SkillName = "Sharp Hawk Eyes",
+		SkillName = "Hawk Eyes",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -8630,7 +8646,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GD_BATTLEORDER] = {
 		"GD_BATTLEORDER",
-		SkillName = "Battle Orders",
+		SkillName = "Battle Order",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -8662,7 +8678,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GD_DEVELOPMENT] = {
 		"GD_DEVELOPMENT",
-		SkillName = "Emsolute Develop",
+		SkillName = "Permanent Development",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -8675,5 +8691,21 @@ SKILL_INFO_LIST = {
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
 		AttackRange = { 1, 1, 1 }
-	}
+	},
+	[SKID.MC_CARTDECORATE] = {
+		"MC_CARTDECORATE",
+		SkillName = "Change Cart 2",
+		MaxLv = 1,
+		SpAmount = { 40 },
+		bSeperateLv = false,
+		AttackRange = { 1 }
+	},
+	[SKID.ALL_BUYING_STORE] = {
+		"ALL_BUYING_STORE",
+		SkillName = "Buying Store",
+		MaxLv = 2,
+		SpAmount = { 30, 30 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1 }
+	},
 }
