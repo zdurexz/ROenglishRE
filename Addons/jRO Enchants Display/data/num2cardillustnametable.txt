@@ -1288,8 +1288,8 @@
 300191#MD_Geffen_Dy_Card#
 
 //New Cards of Regret
-300192#sorry#
-300193#sorry#
+300192#Sakray_Card#
+300193#Tiara_Card#
 
 //Episode 18
 300211#EP18_Ash_Toad_Card#
@@ -1509,6 +1509,9 @@
 300531#sorry#
 300532#sorry#
 300533#sorry#
+
+// 2024 Sesrumnir Ocean Week
+300549#Ocean_Pope_Card#
 
 // End of kRO Cards - Cards below are ordered by ID if possible
 // Note: These are not all cards of course and I will not check for missing ones,
